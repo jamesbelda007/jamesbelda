@@ -4,6 +4,7 @@ import React, { useEffect, useRef, useState } from "react";
 import { motion, useInView, AnimatePresence } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
+import { SiNextdotjs, SiReact, SiTypescript, SiTailwindcss, SiVercel } from "react-icons/si";
 
 const ease = [0.16, 1, 0.3, 1] as const;
 
@@ -596,6 +597,108 @@ function About() {
   );
 }
 
+// ─── Why Hire Me ─────────────────────────────────────────────────────────────
+function WhyHireMe() {
+  return (
+    <section
+      className="py-24 md:py-36 px-6 md:px-12 lg:px-16 relative overflow-hidden"
+      style={{
+        backgroundColor: "#060608",
+        backgroundImage:
+          "linear-gradient(rgba(255,255,255,0.04) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.04) 1px, transparent 1px)",
+        backgroundSize: "52px 52px",
+      }}
+    >
+      <div className="max-w-7xl mx-auto">
+        <FadeUp className="mb-14 md:mb-20">
+          <span className="font-mono text-[11px] tracking-[0.3em] uppercase text-white/55">
+            Why Work With Me
+          </span>
+          <h2 className="text-[clamp(2rem,5vw,5rem)] font-black tracking-tighter text-white mt-3 leading-[0.9]">
+            Why hire me as your
+            <br />
+            web developer?
+          </h2>
+        </FadeUp>
+
+        {/* Bento grid */}
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-3 md:gap-4">
+
+          {/* Large card — Modern Tech */}
+          <FadeUp delay={0} className="md:col-span-2 md:row-span-2 rounded-2xl p-8 md:p-10 flex flex-col justify-between min-h-[260px] md:min-h-[320px] bg-[#1a1f3c]">
+            <div className="text-3xl mb-6">🎨</div>
+            <div>
+              <h3 className="text-[1.3rem] md:text-[1.5rem] font-bold text-white mb-2 tracking-tight">I build with modern technologies</h3>
+              <p className="text-[14px] text-white/55 leading-relaxed mb-6">Next.js, React, TypeScript, and Tailwind — I use battle-tested tools that are fast, scalable, and maintainable.</p>
+              {/* Tech logos */}
+              <div className="flex items-center gap-3">
+                <div title="Next.js" className="w-9 h-9 rounded-lg bg-black flex items-center justify-center">
+                  <SiNextdotjs size={20} color="#fff" />
+                </div>
+                <div title="Vercel" className="w-9 h-9 rounded-lg bg-black flex items-center justify-center">
+                  <SiVercel size={18} color="#fff" />
+                </div>
+                <div title="React" className="w-9 h-9 rounded-lg bg-[#222] flex items-center justify-center">
+                  <SiReact size={20} color="#61DAFB" />
+                </div>
+                <div title="TypeScript" className="w-9 h-9 rounded-lg bg-[#3178C6] flex items-center justify-center">
+                  <SiTypescript size={18} color="#fff" />
+                </div>
+                <div title="Tailwind CSS" className="w-9 h-9 rounded-lg bg-[#0f172a] flex items-center justify-center">
+                  <SiTailwindcss size={20} color="#38bdf8" />
+                </div>
+              </div>
+            </div>
+          </FadeUp>
+
+          {/* New Design Trends */}
+          <FadeUp delay={0.07} className="rounded-2xl p-6 flex items-center gap-4 bg-[#111827]">
+            <span className="text-2xl shrink-0">✦</span>
+            <div>
+              <h3 className="text-[15px] font-bold text-white mb-0.5">I follow new design trends</h3>
+              <p className="text-[13px] text-white/50">Clean, modern UI that looks great and feels even better</p>
+            </div>
+          </FadeUp>
+
+          {/* SEO Built-In */}
+          <FadeUp delay={0.1} className="rounded-2xl p-6 flex items-center gap-4 bg-[#111827]">
+            <span className="text-2xl shrink-0">🔍</span>
+            <div>
+              <h3 className="text-[15px] font-bold text-white mb-0.5">I build SEO-ready websites</h3>
+              <p className="text-[13px] text-white/50">Structured, fast, and discoverable — your site will get found</p>
+            </div>
+          </FadeUp>
+
+          {/* Analytics */}
+          <FadeUp delay={0.12} className="rounded-2xl p-6 flex items-center gap-4 bg-[#0d2420]">
+            <span className="text-2xl shrink-0">📊</span>
+            <div>
+              <h3 className="text-[15px] font-bold text-white mb-0.5">I add analytics from day one</h3>
+              <p className="text-[13px] text-white/50">Know who visits, what they do, and how to convert more</p>
+            </div>
+          </FadeUp>
+
+          {/* 99.9% Uptime */}
+          <FadeUp delay={0.14} className="rounded-2xl p-6 flex flex-col items-center justify-center text-center bg-[#111827]">
+            <p className="text-[2.5rem] font-black text-white leading-none tracking-tighter mb-1">99.9%</p>
+            <p className="text-[13px] text-white/50">I deploy on reliable infrastructure that stays online</p>
+          </FadeUp>
+
+          {/* Blazing Fast */}
+          <FadeUp delay={0.16} className="rounded-2xl p-6 flex items-center gap-4 bg-[#2a0d10]">
+            <span className="text-2xl shrink-0">🚀</span>
+            <div>
+              <h3 className="text-[15px] font-bold text-white mb-0.5">I deliver blazing fast websites</h3>
+              <p className="text-[13px] text-white/50">Optimized for Core Web Vitals — fast for users, loved by Google</p>
+            </div>
+          </FadeUp>
+
+        </div>
+      </div>
+    </section>
+  );
+}
+
 // ─── Contact ─────────────────────────────────────────────────────────────────
 function Contact() {
   return (
@@ -674,6 +777,7 @@ export default function Home() {
       <Ticker />
       <Works />
       <About />
+      <WhyHireMe />
       <Contact />
       <Footer />
     </div>

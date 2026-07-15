@@ -8,11 +8,44 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "James Belda — Web Developer & Designer",
+  title: "James Belda",
   description:
-    "CTO at Kulay, Co-founder of kblink.ph. I craft beautiful, high-performance websites for every industry.",
+    "Web developer and designer crafting beautiful, fast websites for every industry.",
+  keywords: [
+    "James Belda",
+    "web developer",
+    "web designer",
+    "Next.js",
+    "Philippines",
+    "Kulay",
+    "KBLink",
+    "portfolio",
+  ],
+  authors: [{ name: "James Belda" }],
+  creator: "James Belda",
   icons: {
     icon: "/favicon.png",
+  },
+  openGraph: {
+    type: "website",
+    title: "James Belda",
+    description:
+      "Web developer and designer crafting beautiful, fast websites for every industry.",
+    images: [
+      {
+        url: "/jamesbelda2.png",
+        width: 1200,
+        height: 630,
+        alt: "James Belda",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "James Belda",
+    description:
+      "Web developer and designer crafting beautiful, fast websites for every industry.",
+    images: ["/jamesbelda2.png"],
   },
 };
 

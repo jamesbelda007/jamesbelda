@@ -11,6 +11,9 @@ export const metadata: Metadata = {
   title: "James Belda — Web Developer & Designer",
   description:
     "CTO at Kulay, Co-founder of kblink.ph. I craft beautiful, high-performance websites for every industry.",
+  icons: {
+    icon: "/favicon.png",
+  },
 };
 
 export default function RootLayout({

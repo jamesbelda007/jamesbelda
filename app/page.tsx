@@ -65,11 +65,8 @@ function Nav() {
             : ""
         }`}
       >
-        <a
-          href="#"
-          className="font-mono text-[11px] tracking-[0.25em] uppercase text-white/40 hover:text-white/70 transition-colors"
-        >
-          JB
+        <a href="#" className="opacity-60 hover:opacity-100 transition-opacity">
+          <Image src="/jb-logo.png" alt="James Belda" width={36} height={36} className="object-contain" />
         </a>
 
         {/* Desktop */}
@@ -144,7 +141,7 @@ function Nav() {
               transition={{ delay: 0.42 }}
               className="mt-10 font-mono text-sm text-white/30 tracking-widest"
             >
-              jsa.beldaa@gmail.com
+              jsa.belda@gmail.com
             </motion.p>
           </motion.div>
         )}
@@ -736,10 +733,10 @@ function Contact() {
             create something that makes people stop and stare.
           </p>
           <a
-            href="mailto:jsa.beldaa@gmail.com"
+            href="mailto:jsa.belda@gmail.com"
             className="inline-flex items-center gap-3 bg-white text-black text-sm font-semibold rounded-full px-8 py-4 hover:scale-[1.04] active:scale-[0.97] transition-transform duration-300"
           >
-            jsa.beldaa@gmail.com
+            jsa.belda@gmail.com
             <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden>
               <path
                 d="M2.5 7h9M8 3.5 11.5 7 8 10.5"

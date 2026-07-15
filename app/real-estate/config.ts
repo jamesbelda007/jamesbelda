@@ -98,7 +98,7 @@ export const config = {
       price: "₱8,500,000",
       tag: null,
       image:
-        "https://images.unsplash.com/photo-1600607687939-ce8a6d349c28?auto=format&fit=crop&w=800&h=560&q=85",
+        "https://images.pexels.com/photos/1438832/pexels-photo-1438832.jpeg?_gl=1*12wfsp3*_ga*MTE4OTk1MTQxOS4xNzczMzc2NjIw*_ga_8JE65Q40S6*czE3ODQxMDg5NTYkbzMkZzEkdDE3ODQxMDg5NjgkajQ4JGwwJGgw",
     },
     {
       name: "The Grove",

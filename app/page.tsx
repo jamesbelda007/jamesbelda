@@ -322,7 +322,7 @@ const CATEGORIES: Category[] = [
     colSpan: "md:col-span-2",
     href: "/corporate",
     browserUrl: "jamesbelda.com/corporate",
-    image: "/corporate.png",
+    image: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=800&q=80",
   },
   {
     label: "Brand Website",
@@ -334,7 +334,7 @@ const CATEGORIES: Category[] = [
     colSpan: "",
     href: "/brand",
     browserUrl: "jamesbelda.com/brand",
-    image: "/brand.png",
+    image: "https://images.pexels.com/photos/37468393/pexels-photo-37468393.jpeg?auto=compress&cs=tinysrgb&w=800",
   },
   {
     label: "Restaurant",
@@ -344,6 +344,9 @@ const CATEGORIES: Category[] = [
     colorTo: "#92400e",
     accent: "#fcd34d",
     colSpan: "",
+    href: "/restaurant",
+    browserUrl: "jamesbelda.com/restaurant",
+    image: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=800&q=80",
   },
   {
     label: "Clothing Brand",
@@ -354,7 +357,7 @@ const CATEGORIES: Category[] = [
     accent: "#e4e4e7",
     colSpan: "",
     href: "/clothing",
-    image: "/clothing.png",
+    image: "https://images.pexels.com/photos/6070177/pexels-photo-6070177.jpeg?auto=compress&cs=tinysrgb&w=800",
     browserUrl: "jamesbelda.com/clothing",
   },
   {
@@ -365,6 +368,9 @@ const CATEGORIES: Category[] = [
     colorTo: "#14532d",
     accent: "#4ade80",
     colSpan: "",
+    href: "/real-estate",
+    browserUrl: "jamesbelda.com/real-estate",
+    image: "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=800&q=80",
   },
   {
     label: "SaaS / Tech",
@@ -374,6 +380,9 @@ const CATEGORIES: Category[] = [
     colorTo: "#2e1065",
     accent: "#a78bfa",
     colSpan: "md:col-span-2",
+    href: "/saas",
+    browserUrl: "jamesbelda.com/saas",
+    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=800&q=80",
   },
   {
     label: "E-commerce",
@@ -383,6 +392,9 @@ const CATEGORIES: Category[] = [
     colorTo: "#500724",
     accent: "#f472b6",
     colSpan: "",
+    href: "/ecommerce",
+    browserUrl: "jamesbelda.com/ecommerce",
+    image: "https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=800&q=80",
   },
 ];
 
@@ -466,12 +478,12 @@ function Works() {
       <div className="max-w-7xl mx-auto">
         <FadeUp className="mb-16 md:mb-20">
           <span className="font-mono text-[11px] tracking-[0.3em] uppercase text-white/55">
-            Selected Work
+            Showcase
           </span>
           <h2 className="text-[clamp(2.5rem,7vw,6.5rem)] font-black tracking-tighter text-white mt-3 leading-[0.88]">
-            Crafted for
+            Every industry,
             <br />
-            every industry.
+            beautifully built.
           </h2>
         </FadeUp>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-3 md:gap-4">
@@ -528,17 +540,23 @@ function About() {
             <FadeUp delay={0.15}>
               <p className="text-[15px] text-white/75 leading-relaxed">
                 I&apos;m James Belda — a tech builder, designer, and creative
-                engineer passionate about crafting web experiences that actually
-                make people feel something. With roots in both engineering and
-                design, I thrive at the intersection of code and creativity.
+                engineer with more than a decade of experience in IT. With roots
+                in both engineering and design, I enjoy working at the
+                intersection of code and creativity to build web experiences
+                that are thoughtful, functional, and meaningful.
               </p>
             </FadeUp>
 
             <FadeUp delay={0.2}>
               <p className="text-[15px] text-white/75 leading-relaxed">
-                From enterprise platforms to boutique brand sites, I bring the
-                same obsessive attention to craft and bias for elegance to every
-                engagement.
+                I previously served as the App Development Lead for the SMAC
+                &amp; SHOP app and now work as Chief Technology Officer at
+                Kulay, which provides all-in-one POS and e-commerce solutions.
+                I&apos;m also a co-founder of KBLink.ph, an NFC technology
+                company with a registered utility model for digital calling
+                cards and smart tags. From enterprise platforms to boutique
+                brand sites, I bring the same care, attention to detail, and
+                appreciation for simple, elegant solutions to every project.
               </p>
             </FadeUp>
 

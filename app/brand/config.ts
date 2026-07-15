@@ -35,7 +35,7 @@ export const config = {
     cta: { label: "See Our Work", href: "#work" },
     // Creative workspace or brand mockup photo
     image:
-      "https://images.unsplash.com/photo-1524758631624-e2822e304c36?auto=format&fit=crop&w=900&q=85",
+      "https://images.pexels.com/photos/37468393/pexels-photo-37468393.jpeg?_gl=1*xohzho*_ga*MTE4OTk1MTQxOS4xNzczMzc2NjIw*_ga_8JE65Q40S6*czE3ODQxMDMzMTUkbzIkZzEkdDE3ODQxMDYwNjAkajM4JGwwJGgw",
   },
 
   // ── Portfolio / Work ────────────────────────────────────────────────────────
@@ -166,7 +166,7 @@ export const config = {
     cta: { label: "Meet the Team", href: "#" },
     // Studio workspace, team photo, or editorial shot
     image:
-      "https://images.unsplash.com/photo-1497366754035-f200968a333e?auto=format&fit=crop&w=900&q=85",
+      "https://images.pexels.com/photos/37468393/pexels-photo-37468393.jpeg?_gl=1*xohzho*_ga*MTE4OTk1MTQxOS4xNzczMzc2NjIw*_ga_8JE65Q40S6*czE3ODQxMDMzMTUkbzIkZzEkdDE3ODQxMDYwNjAkajM4JGwwJGgw",
   },
 
   // ── Contact CTA ─────────────────────────────────────────────────────────────

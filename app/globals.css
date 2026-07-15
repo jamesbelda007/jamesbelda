@@ -1,13 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap');
 @import "tailwindcss";
 @import "tw-animate-css";
 @import "shadcn/tailwind.css";
+
+/* Base font */
+body {
+  font-family: "Google Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-variation-settings: "GRAD" 0;
+}
 
 /* Smooth scroll */
 html {
   scroll-behavior: smooth;
 }
-
-/* Subtle film grain overlay */
 body::after {
   content: "";
   position: fixed;

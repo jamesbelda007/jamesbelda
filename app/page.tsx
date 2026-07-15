@@ -159,16 +159,16 @@ function Hero() {
       {/* Background photo + overlays */}
       <div className="absolute inset-0 z-0">
         <Image
-          src="/self.png"
+          src="/jamesbelda2.png"
           alt="James Belda"
           fill
-          className="object-cover object-top"
+          className="object-cover object-center"
           priority
           sizes="100vw"
         />
-        <div className="absolute inset-0 bg-black/55" />
-        <div className="absolute inset-0 bg-gradient-to-t from-black via-black/40 to-transparent" />
-        <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/30 to-transparent" />
+        <div className="absolute inset-0 bg-black/40" />
+        <div className="absolute inset-0 bg-gradient-to-t from-black via-black/30 to-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-r from-black/60 via-black/20 to-transparent" />
       </div>
 
       <div className="relative z-10 px-6 md:px-12 lg:px-16 pb-14 md:pb-24 pt-28">
@@ -332,6 +332,9 @@ const CATEGORIES: Category[] = [
     colorTo: "#7c2d12",
     accent: "#fb923c",
     colSpan: "",
+    href: "/brand",
+    browserUrl: "jamesbelda.com/brand",
+    image: "/brand.png",
   },
   {
     label: "Restaurant",
